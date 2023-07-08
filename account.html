@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/png" size="32x32" href="images/favicon-32x32.png">
+    <title>Account Form</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="title">
+        <h1 class="text">Create Account</h1>
+        
+        <form id="form">
+            <div class="form-control">
+                <label for="name" id="label-name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+            
+            <div class="form-control">
+                <label for="email" id="label-email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" />
+            </div>
+
+            <div class="form-control">
+                <label for="age" id="label-age">Age</label>
+                <input type="text" id="age" placeholder="Enter your age" />
+            </div>
+            
+            <div class="form-control">
+                <label for="role" id="label-role">Which option best describes you?</label>
+                <select name="role" id="role">
+                    <option value="student">Select Current Role</option>
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professor">Professor</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="password" class="col-form-label" id=""> Create Password</label>
+                <input type="password" value="" class="form-control">
+                <button class="btn"><a href="index.html">SUBMIT</a></button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
